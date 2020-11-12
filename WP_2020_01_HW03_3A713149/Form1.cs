@@ -873,7 +873,7 @@ namespace WP_2020_01_HW03_3A713149
             }
             if (cardout == true)
             {
-                if (e.KeyCode == Keys.V)
+                if (e.KeyCode == Keys.V && cardmax ==3)
                 {
                     mode += 1;
                     if (mode == 2)
